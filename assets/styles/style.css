@@ -1,0 +1,506 @@
+
+body{
+	background: #FAFAFA;
+	color: #444444;
+	font-family: avenir;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+/*navbar css*/
+#logo{
+	font-family: 'Lobster', cursive;
+	margin-left: 30px;
+	font-size: 50px;
+	color: 	#B9D6F2;
+ }
+
+#navbarcontainer{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 20px;
+  	border: solid;
+  	background-color: white;
+  	border-color: white;
+  	border-width: 1px;
+  	box-shadow: 2.5px 2.5px 1.25px #E8E8E8; 
+}
+
+ 
+#navbar {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#searchbar {
+	height: 30px;
+	width:400px;
+ 	margin-top: 20px;
+ 	border-radius: 3%;
+ 	margin-left: 50px;
+	border: none;
+	background-color: #F5F5F5; 
+}
+#leftnavbar{
+	display: flex;
+	flex-direction:row;	
+}
+
+
+#rightnavbar{
+	display: flex;
+	flex-direction: row;
+	margin-right: 70px;
+}
+
+.navbar-item:hover{
+	color: #B9D6F2;
+	cursor: pointer;
+}
+
+.navbar-item{
+	margin: 20px;
+	font-family: avenir;
+}
+
+/*homepage css*/
+.item{
+ 	height: 200px;
+ 	width: 200px;
+ 	margin: 10px;
+  	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+  }
+
+#artistspictures{
+	display: flex;
+	flex-direction: row;
+}
+
+#artists{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+
+}
+
+#songs{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+
+}
+#songspictures{
+	display: flex;
+	flex-direction: row;
+}
+
+#searchbar{
+	font-family: avenir;
+	font-size: 110%;
+}
+
+#boxes {
+	margin-top: 100px;
+ 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item:hover{
+	transform: scale(1.10);
+	transition: #B9D6F2 .5s;
+}
+
+#songsheader{
+	font-family: avenir;
+	font-size: 30px;
+
+}
+
+#artistsheader{
+	font-family: avenir;
+	font-size: 30px;
+  }
+
+
+/*lyrics css*/
+#lyricsheader{
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(rgba(48,48,48,0.1), rgba(0,0,0,1)), url("https://www.rollingstone.com/wp-content/uploads/2018/06/lauv-long-opener-d4a0fe8e-954c-461a-bd40-31221b623547.jpg?crop=900:600&width=440");
+  	background-attachment: fixed;
+  	background-size: cover;
+	background-color: white;
+	align-items: center;
+	margin: 50px;
+	padding: 25px;
+   }
+
+  #lyricsalbum{
+ 	height: 300px;
+ 	width: 300px;
+ 	margin-left: 50px;
+ 	box-shadow: 5.0px 5.0px 2.5px #000000;
+
+ }
+
+ #lyricstext{
+ 	margin-left: 50px;
+ 	color: white;
+	text-shadow: 2px 2px 4px #000000;
+ }
+#playbutton{
+	height: 30px;
+	width: 30px;
+	margin-left: -5px;
+	margin-top: 5px;
+}
+#playbutton:hover{
+	cursor: pointer;
+}
+#video:hover{
+	cursor: pointer;
+}
+#lyricssongname{
+	font-size: 35px;
+
+}
+ #lyricssongname:hover{
+	color: #B9D6F2;
+	cursor: pointer;
+}
+
+ #lyricsartistname{
+	font-size: 20px;
+}
+
+ #lyricsartistname:hover{
+	color: #B9D6F2;
+	cursor: pointer;
+}
+  
+
+
+#lyricscontent{
+	margin: 50px;
+	display: flex;
+	flex-direction: row;
+ 	padding: 20px;
+	margin-bottom: 50px;
+	justify-content: center;
+	justify-content: space-around;
+ }
+
+#relatedvideos{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 50px;
+}
+#text{
+	background-color: white;
+	padding: 50px;
+
+}
+#video{
+ 	margin-top: 20px;
+  }
+ 
+
+  /*artist css*/
+#artistsearchheader{
+	display: flex;
+	flex-direction: row;
+	background-image: url("https://fanart.tv/fanart/music/e5712ceb-c37a-4c49-a11c-ccf4e21852d4/artistbackground/sivan-troye-53fb37c087a34.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px;
+	align-items: center;
+	margin-top: -17px;
+   }
+#artistsearchtext{
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 70px;
+	margin-left: 100px;
+}
+
+#artistsearchgenre{
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+#artistnavbar{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+.artistitem{
+	margin-left: 100px;
+ 	margin-top: -25px;
+	margin-bottom: 15px;
+	color: white;
+	opacity: 0.7;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+.artistitem:hover{
+	cursor: pointer;
+	opacity: 1.0;
+	border-bottom: 5px solid #B9D6F2;
+
+}
+#artisttopsongs{
+	display: flex;
+	flex-direction: column;
+  }
+.artistsong{
+	margin: 5px;
+	height: 50%;
+ 	padding: 5px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	width: 600px;
+ 	background-color: white;
+ 	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+    }
+
+ .artistsong:hover{
+ 	cursor: pointer;
+ }
+ .songimage{
+ 	margin-right: 20px;
+ 	height: 60px;
+ 	width: 60px;
+ }
+ .songtext{
+ 	font-size: 17px;
+ }
+
+ #artistcontentcontainer{
+ 	margin-top: 20px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	background-color: #FAFAFA;
+ 	margin-bottom: 70px;
+ 	justify-content: center;
+	justify-content: space-around;
+  }
+  #overallsimilar{
+  	display: flex;
+  	flex-direction: row;
+  }
+
+  #similarartists{
+  	margin-bottom: 175px;
+  	display: flex;
+  	flex-direction: column;
+  }
+
+#similarartistspictures{
+	display: flex;
+	flex-direction: row;
+}
+.similarartistsface{
+	margin: 10px;
+ 	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	overflow: hidden;
+ 	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+}
+.similarartistsface:hover{
+	box-shadow: 5.0px 5.0px 2.5px #B9D6F2;
+	 
+
+}
+.artistheader{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#bloom{
+	display: flex;
+	flex-direction: row;
+	background-image: url("https://www.billboard.com/files/media/TROYE-SIVAN-01-press-photo-2018-billboard-1548.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+ 	height: 400px;
+	align-items: center;
+	margin-top: -17px;
+}
+#bloomcontentcontainer{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 125px;
+	justify-content: center;
+	justify-content: space-around;
+
+}
+#topalbumtext{
+	margin-left: 100px;
+}
+#bloomtext{
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	display: flex;
+	flex-direction: column;
+}
+.bloomsong{
+	margin: 5px;
+	height: 100%;
+ 	padding: 5px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	align-items: center;
+ 	width: 500px;
+ 	background-color: white;
+ 	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+  }
+
+.bloomsong:hover{
+	cursor: pointer;
+}
+
+#row1{
+	display:flex;
+	flex-direction: column;
+  
+ }
+#row2{
+	display:flex;
+	flex-direction: column;
+   }
+
+
+/*search css*/
+
+   #searchview {
+	display:flex;
+	flex-direction: column;
+	padding: 50px 200px 50px 200px;
+	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+}
+
+#searchheader {
+	box-shadow: 5.0px 5.0px 2.5px grey;
+	background-color: white;
+	padding: 0px 25px 25px 25px;
+}
+
+#searchheaderimg {
+ 	height: 100px;
+ 	width: 100px;
+}
+
+#searchheaderimg:hover {
+	opacity: 0.8;
+	transition: #B9D6F2 .5s;
+	cursor: pointer;
+}
+
+#resultartist {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#resultname {
+	margin-left: 20px;
+}
+#resultname:hover {
+	color: #B9D6F2;
+	cursor: pointer;
+}
+
+#searchnames {
+	margin-left: 20px;
+ 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#searchnames:hover {
+	color: #B9D6F2;
+	cursor: pointer;
+}
+
+#searchfooter {
+	display:flex;
+	flex-direction: column;
+	padding: 50px 300px 50px 300px;
+	box-shadow: 2.5px 2.5px 1.25px #E8E8E8;
+}
+
+#searchfooterimg {
+	height: 100px;
+ 	width: 100px;
+}
+
+#searchfooterimg:hover {
+	opacity: 0.8;
+	transition: #B9D6F2 .5s;
+	cursor: pointer;
+}
+
+#search1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	padding: 25px;
+	border-top-style: solid;
+	border-bottom: solid;
+	border-color: #B9D6F2;
+}
+
+#search2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	padding: 25px;
+	border-bottom: solid;
+	border-color: #B9D6F2;
+}
+
+#search3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	padding: 25px;
+	border-bottom: solid;
+	border-color: #B9D6F2;
+}
+
+#search4 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	padding: 25px;
+	border-bottom: solid;
+	border-color: #B9D6F2;
+}
+
